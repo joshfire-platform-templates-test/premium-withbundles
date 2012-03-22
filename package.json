@@ -27,21 +27,21 @@
     ],
     "premium": true,
     
-    "bundles":[
-      {
+    "bundles":{
+      "all":{
         "devices":"*",
         "price": {
           "eur": 399,
           "usd": 533
         }
       },
-      {
+      "combo-phone-tablet":{
         "devices":["phone","tablet"],
         "price": {
           "eur": 300,
           "usd": 301
         }
       }
-    ]
+    }
   }
 }
