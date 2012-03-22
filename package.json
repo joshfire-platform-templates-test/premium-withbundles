@@ -1,0 +1,47 @@
+{
+  "name": "premium-withbundles",
+  "version": "0.0.42",
+  "fullName": "Good template",
+  "joshfire": {
+    "devices": [
+      {
+        "devices": ["phone","tablet"],
+        "startfile": "index.html",
+        "price":{
+          "eur": 200,
+          "usd": 201
+        }
+      },
+      {
+        "devices":"desktop",
+        "startfile": "index.html",
+        "price":{
+          "eur": 202,
+          "usd": 203
+        }
+      },
+      {
+        "devices":"tv",
+        "startfile": "index.html"
+      },
+    ],
+    "premium": true,
+    
+    "bundles":[
+      {
+        "devices":"*",
+        "price": {
+          "eur": 399,
+          "usd": 533
+        }
+      },
+      {
+        "devices":["phone","tablet"],
+        "price": {
+          "eur": 300,
+          "usd": 301
+        }
+      }
+    ]
+  }
+}
