@@ -23,7 +23,7 @@
       {
         "devices":"tv",
         "startfile": "index.html"
-      },
+      }
     ],
     "premium": true,
     
