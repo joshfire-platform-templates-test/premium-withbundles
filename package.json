@@ -50,10 +50,7 @@
       },
       "free-desktop":{
         "devices":["desktop"],
-        "onetime": {
-          "eur": 0,
-          "usd": 0
-        }
+        "free":true
       }
     }
   }
