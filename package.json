@@ -1,24 +1,16 @@
 {
-  "name": "premium-withbundles",
+  "name": "unittests-premium-withbundles",
   "version": "0.0.42",
   "fullName": "Good template",
   "joshfire": {
     "devices": [
       {
         "devices": ["phone","tablet"],
-        "startfile": "index.html",
-        "price":{
-          "eur": 200,
-          "usd": 201
-        }
+        "startfile": "index.html"
       },
       {
         "devices":"desktop",
-        "startfile": "index.html",
-        "price":{
-          "eur": 202,
-          "usd": 203
-        }
+        "startfile": "index.html"
       },
       {
         "devices":"tv",
@@ -27,19 +19,40 @@
     ],
     "premium": true,
     
-    "bundles":{
+    "prices":{
       "all":{
         "devices":"*",
-        "price": {
+        "onetime": {
           "eur": 399,
           "usd": 533
         }
       },
       "combo-phone-tablet":{
         "devices":["phone","tablet"],
-        "price": {
+        "onetime": {
           "eur": 300,
           "usd": 301
+        }
+      },
+      "only-phone":{
+        "devices":["phone"],
+        "onetime": {
+          "eur": 180,
+          "usd": 181
+        }
+      },
+      "only-tablet":{
+        "devices":["tablet"],
+        "onetime": {
+          "eur": 182,
+          "usd": 183
+        }
+      },
+      "free-desktop":{
+        "devices":["desktop"],
+        "onetime": {
+          "eur": 0,
+          "usd": 0
         }
       }
     }
